@@ -14,8 +14,8 @@ const Header = () => {
                 <p>문의 남기기</p>
             </Box>
             <span>
-                <p>인스타로고1</p>
-                <p>유튜브로2고</p>
+                <img src='/instar.jpg' alt='인스타 로고'style={{width: '300px'}}/>
+                <img src='/youtube.png' alt='유튜브 로고'style={{width: '300px'}}/>
             </span>
         </header>
     );
