@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <Box sx={{backgroundColor: '#efefef', display: 'flex', justifyContent: 'center'}}>
             <Box sx={{width: '100vw', height: '40rem', display: 'flex', justifyContent: 'center'}}>
-                <img alt='이미지 아무거나' src='/' style={{objectFit: 'fill'}}/>
+                <img alt='이미지 아무거1나' src='/' style={{objectFit: 'fill'}}/>
             </Box>
         </Box>
     );
