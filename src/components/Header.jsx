@@ -2,6 +2,7 @@ import { Box } from '@mui/material';
 import React from 'react';
 
 const Header = () => {
+    // 파일 변경
     return (
         <header style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', backgroundColor: '#fefefe', height: '6rem'}}>
             <span>
