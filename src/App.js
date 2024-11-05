@@ -1,7 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
   return (
     <div className="App">
-      테스트
+      <Header/>
+      <div>테스트 내용</div>
     </div>
   );
 }
