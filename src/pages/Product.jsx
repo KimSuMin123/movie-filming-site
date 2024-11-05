@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import itemData from "./data.json"
+import Header from '../components/header';
 
 const Product = () => {
   return (
+  <div>
+    <Header/>
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', minHeight: '100vh' }}>
+      
       <h1>상품 목록</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {itemData.map((item) => (
@@ -17,6 +21,7 @@ const Product = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

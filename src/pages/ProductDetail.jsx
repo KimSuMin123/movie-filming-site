@@ -14,6 +14,10 @@ const ProductDetail = () => {
   const togglePopup2 = () => setIsPopup2Open(!isPopup2Open);
 
   return (
+    <div>
+   
+      <Header/>
+    
     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
           <div style={{ flex: 1, textAlign: 'center' }}>
         <img 
@@ -49,6 +53,7 @@ const ProductDetail = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
