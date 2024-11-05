@@ -2,8 +2,9 @@ import { Box } from '@mui/material';
 import React from 'react';
 
 const Header = () => {
+    // 파일 변경
     return (
-        <header style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', backgroundColor: '#efefef', height: '6rem'}}>
+        <header style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', backgroundColor: '#fefefe', height: '6rem'}}>
             <span>
                 <img src='/ampm_logo.png' alt='로고'style={{width: '300px'}}/>
             </span>
@@ -13,8 +14,8 @@ const Header = () => {
                 <p>문의 남기기</p>
             </Box>
             <span>
-                <p>인스타로고</p>
-                <p>유튜브로고</p>
+                <img src='/instar.jpg' alt='인스타 로고'style={{width: '300px'}}/>
+                <img src='/youtube.png' alt='유튜브 로고'style={{width: '300px'}}/>
             </span>
         </header>
     );
